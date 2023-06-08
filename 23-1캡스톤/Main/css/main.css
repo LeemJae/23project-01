@@ -1,0 +1,141 @@
+body{
+    width: 1900px;
+    height: auto;
+}
+
+#HeadLine{
+    width: auto;
+    height: 80px;
+    background-color: white;
+}
+
+#hlLogo{
+    width: 135px;
+    height: 50px;
+    margin-left: 350px;
+    margin-top: 15px;
+    float: left;
+    background-color: #D9D9D9;
+    overflow: hidden;
+}
+#HeadLine > #HL_Search{
+    width: 400px;
+    height: 30px;
+    margin-left: 265px;
+    margin-top: 25px;
+    float: left;
+    background-color:#D9D9D9 ;
+    border-radius: 68px;
+    text-align: left;
+
+    padding-left: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+#HL_LogIn{
+    width: 80px;
+    height: 30px;
+    margin-left: 280px;
+    margin-top: 25px;
+    float: left;
+    background-color: white;
+
+    border : solid 1px gray;
+    border-radius: 68px;
+    text-align: center;
+    line-height: 30px;
+}
+#HL_LogIn > a{
+    text-decoration: none;
+    color: black;
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#HL_CreateID{
+    width: 80px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 25px;
+    float: left;
+
+    border : solid 1px gray;
+    background-color: white;
+    border-radius: 68px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#HMrest{
+    width: auto;
+    height: 50px;
+    background-color: #D9D9D9;
+    line-height: 50px;
+    padding-left: 400px;
+}
+
+#HMrest > li{
+    float: left;
+    margin-right: 20px;
+}
+
+
+
+#Main{
+    position: relative;
+    width: auto;
+    height: 400px;
+    background-color: white;
+}
+
+#mainSlides{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;   
+    background-color: white;
+    /*리스트 형식으로 이미지를 일렬로 
+    정렬할 것이기 때문에, 500px 밖으로 튀어 나간 이미지들은
+    hidden으로 숨겨줘야됨*/
+  }
+
+#Mrest{
+    position: relative;
+    width: auto;
+    height: 50px;
+    background-color: #D9D9D9;
+    padding-left: 750px;
+    line-height: 50px;
+    font-size: 13px;
+}
+
+#Show{
+    width: auto;
+    height: 400px;
+    background-color: white;
+}
+
+#Show > #Show_Main{
+    width: 1400px;
+    height: 360px;
+    background-color: #D9D9D9;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
+
+
+#Show > #Show_Main > #SMP_info1{
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    margin-top: 15px;
+    margin-left: 40px;
+    float: left;
+}
